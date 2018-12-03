@@ -1,0 +1,11 @@
+.jumbotron {
+    background: url('https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?cs=srgb&dl=astronomy-atmosphere-earth-220201.jpg&fm=jpg')
+    no-repeat center 25%;
+    background-size: cover;
+    color: white;
+    text-shadow: .5em .5em .5em var(--black);
+}
+
+.display-4 {
+    font-family: var(--font-one)
+}

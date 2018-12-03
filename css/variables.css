@@ -1,0 +1,15 @@
+:root {                     
+    --pink: #e80de8;
+    --red: #e80d0d;
+    --yellow: #ffc600;
+    --lime: #00ff00;
+    --Aqua: #00ffff;
+    --Purple: #800080;
+    --Black: #000000;
+    --Blue: #0000FF;
+    --SpringGreen: #00ff7f;
+
+    --font-one: 'Roboto Condensed', sans-serif;
+    --font-two: 'Orbitron', sans-serif;
+    --font-three: 'Yrsa', serif;
+}
