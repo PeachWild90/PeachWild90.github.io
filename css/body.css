@@ -1,3 +1,60 @@
 body {
-    background: var(--Aqua); 
+    background: var(--Black); 
+}
+
+.display-5{
+    color: whitesmoke
+}
+
+h1{
+    font-size: 2.2rem;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    
+}
+
+/* .projectPic {
+    
+        height: 100px;
+        width: 100%;
+        
+      } */
+
+      #border-box {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+       padding-left: 15px;
+        
+    }      
+
+#cthun {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+   padding-left: 15px;
+    
+}
+
+#galaxyguitars{
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+#indianabracepic{
+    max-width: 200%;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
 }

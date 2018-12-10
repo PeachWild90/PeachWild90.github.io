@@ -1,11 +1,48 @@
 .jumbotron {
-    background: url('https://images.pexels.com/photos/220201/pexels-photo-220201.jpeg?cs=srgb&dl=astronomy-atmosphere-earth-220201.jpg&fm=jpg')
-    no-repeat center 25%;
-    background-size: cover;
-    color: white;
-    text-shadow: .5em .5em .5em var(--black);
+    
+    margin-bottom: 2rem;
 }
 
+
+
 .display-4 {
-    font-family: var(--font-one)
+    font-family: var(--font-one);
+    margin-top: 10px;
+    position: absolute; left: 225px;
+    position: absolute; top: 218px;
+}
+#lead1 {
+    margin-top: 100px;
+    position: absolute; left: 382px;
+    position: absolute; top: 190px;
+    font-size: 18.25px;
+}
+
+.jumbo-style{
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 0;
+}
+
+.container{
+    padding-top: 5rem;
+}
+
+#jumbotron-fluid{
+    background: url('https://media.giphy.com/media/NKEt9elQ5cR68/giphy.gif') no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: left;
+    font-family: 'Oleo Script';
+    text-shadow: .5em .5em .5em var(--black);
+    padding-right: 0;
+    padding-top: 10rem;
+    padding-left: 0;
+    border-radius: 0;
+}
+
+#jumbotron-fluid2 {
+    background: linear-gradient(to bottom, #EE82EE, #00BFFF);
+    text-align: center;
+    color:black;
 }
