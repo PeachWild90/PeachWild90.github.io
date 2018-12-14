@@ -52,7 +52,8 @@
 }
 
 .modal-body{
-    font-size:18px
+    font-size:18px;
+    width: 500px;
 }
 
 #aboutButton{
@@ -109,8 +110,9 @@
 }
 #neko{
     position: relative;
-    height:350px;
-    width:150px;
+    height:345px;
+    width:180px;
+    border-radius: 85%;
 }
 
 #aboutButton:hover{
