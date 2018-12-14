@@ -1,48 +1,63 @@
 .jumbotron {
-    
+    background-color: rgba(0,0,0,0.0);
     margin-bottom: 2rem;
 }
 
-
-
+/* Wylie Peach */
 .display-4 {
-    font-family: var(--font-one);
-    margin-top: 10px;
-    position: absolute; left: 225px;
-    position: absolute; top: 218px;
+    font-family: var(--font-four);
+    margin-top: 180px;
+    position: absolute;
+    position: absolute; 
 }
+
+/* Develeoper,engineer,musician */
 #lead1 {
-    margin-top: 100px;
-    position: absolute; left: 382px;
-    position: absolute; top: 190px;
+    margin-top: 310px;
+    margin-left: 5em;
+    position: absolute;
+    position: absolute; 
     font-size: 18.25px;
+    font-family: var(--font-one)
 }
 
-.jumbo-style{
-    padding-right: 0;
-    padding-left: 0;
-    border-radius: 0;
-}
-
-.container{
-    padding-top: 5rem;
-}
-
-#jumbotron-fluid{
-    background: url('https://media.giphy.com/media/NKEt9elQ5cR68/giphy.gif') no-repeat center;
+/* this is a biggon */
+ #jumbotron-fluid{
     background-size: cover;
     color: white;
     text-align: left;
-    font-family: 'Oleo Script';
+    font-family: var(--font-three);
     text-shadow: .5em .5em .5em var(--black);
     padding-right: 0;
-    padding-top: 10rem;
+    padding-top: 0rem;
     padding-left: 0;
     border-radius: 0;
+    max-height:400px;
 }
 
-#jumbotron-fluid2 {
-    background: linear-gradient(to bottom, #EE82EE, #00BFFF);
-    text-align: center;
-    color:black;
+#myModal{
+    width: 100%;
+}
+
+.container{
+    margin: auto;
+}
+
+#gradient
+{
+ width: 100%;
+ height: 900px;
+ padding: 0px;
+ margin: 0px;
+} 
+
+.button{
+    cursor: pointer;
+
+    
+      }
+@font-face{
+    font-family: DeliciousRoman;
+    src: url(http://www.font-face.com/fonts/delicious/Delicious-Roman.otf);
+    font-weight:400;
 }

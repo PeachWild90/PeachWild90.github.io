@@ -1,0 +1,31 @@
+#aboutMe{
+    background: linear-gradient(to bottom, #EE82EE, #00BFFF);
+    opacity: .70;
+    margin: 5vh 120px 5vh 120px;
+    padding: 2vh 0 1.75vh 0;
+    background: rgba(238,130,238,0.00);
+
+}
+#aboutTitle{
+    color: white;
+    font-family: var(--font-two);
+    margin: 0 0 0 22vw;
+}
+
+#bio{
+    color: white;
+    font-family: var(--font-one);
+    margin: 0 25vw 0 25vw;
+    font-size: 25px;
+}
+
+#aboutDiv{
+    max-width: 100;
+    margin: 5vh 120px 5vh 120px;
+    padding: 2vh 0 1.75vh 0;
+}
+
+.container-fluid{
+    margin: 5vh 120px 5vh 120px;
+    padding: 2vh 0 1.75vh 0;
+}

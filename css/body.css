@@ -1,9 +1,13 @@
-body {
-    background: var(--Black); 
+.body {
+    /* background: var(--Black);  */
+    background: url(../assets/img/16483294159_c75d7de8f5_o.jpg);
+    max-height:auto;
 }
 
+
+
 .display-5{
-    color: whitesmoke
+    color:rgba(0,0,0,0.0)
 }
 
 h1{
@@ -22,39 +26,7 @@ h1{
         
       } */
 
-      #border-box {
-        position: relative;
-        width: 100%;
-        min-height: 1px;
-        padding-right: 15px;
-       padding-left: 15px;
-        
-    }      
 
-#cthun {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-   padding-left: 15px;
-    
-}
 
-#galaxyguitars{
-    max-width: 100%;
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
 
-}
 
-#indianabracepic{
-    max-width: 200%;
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
-}

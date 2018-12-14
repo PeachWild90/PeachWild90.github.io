@@ -1,0 +1,159 @@
+.carousel-caption{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 75%;
+    
+    display: inline;
+    padding: 0.5rem;
+  
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.carousel-caption-cons{
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    background: rgba(255, 255, 255, 0.75);
+    font-size: 75%;
+    
+    display: inline;
+    padding: 0.5rem;
+  
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 250px;
+    max-height: 250px;
+  }
+
+.modal-body{
+    background: black;
+}
+
+.modal-header{
+    background: black;
+}
+
+.modal-footer{
+    background: black;
+}
+
+.btn-outline-secondary{
+    font-family: var(--font-one);
+    color: white;
+    outline-color: white;
+    font-size: 35px;
+    line-height: 40px;
+
+}
+
+.modal-body{
+    font-size:18px
+}
+
+#aboutButton{
+    position: relative;
+    margin-left: 0;
+    margin-top: 0;
+    display: inline-block;
+    
+    border: 0.1em solid #FFFFFF;
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--font-one);
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+#projectButton{
+    position: relative;
+    margin-left: 0;
+    margin-top: 0%;
+    display: inline-block;
+   
+    border: 0.1em solid #FFFFFF;
+    
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--font-one);
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+
+#contactButton{
+    position: relative;
+    margin-left: 0%;
+    margin-top: 0;
+    display: inline-block;
+    
+    border: 0.1em solid #FFFFFF;
+    
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--font-one);
+    font-weight: 300;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+}
+#neko{
+    position: relative;
+    height:350px;
+    width:150px;
+}
+
+#aboutButton:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+#projectButton:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+#contactButton:hover{
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+a.button1 {
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--font-one);
+    font-weight: 300;
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    transition: all 0.2s;
+
+}
+
+a.button1:hover{
+    color:white;
+    
+}
+
+@media all and (max-width:30em) {
+    a.button1 {
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+.button{
+    margin-top: 50em;
+}
