@@ -8,7 +8,6 @@
     font-family: var(--font-four);
     margin-top: 180px;
     position: absolute;
-    position: absolute; 
 }
 
 /* Develeoper,engineer,musician */
@@ -16,7 +15,6 @@
     margin-top: 310px;
     margin-left: 5em;
     position: absolute;
-    position: absolute; 
     font-size: 18.25px;
     font-family: var(--font-one)
 }
@@ -41,6 +39,15 @@
 
 .container{
     margin: auto;
+}
+
+@media (max-width: 320px){
+    .container{
+        width: 285px;
+        vertical-align: middle;
+        display: inline-block;
+        position: relative;
+    }
 }
 
 #gradient

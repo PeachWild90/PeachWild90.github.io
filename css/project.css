@@ -56,6 +56,14 @@
     width: 500px;
 }
 
+@media (max-width: 320px) {
+.modal-body {
+    width: 300px;
+}
+}
+
+
+
 #aboutButton{
     position: relative;
     margin-left: 0;
