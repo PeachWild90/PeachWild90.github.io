@@ -39,11 +39,14 @@
 
 .container{
     margin: auto;
+    padding-left: 390px;
 }
+
 
 @media (max-width: 320px){
     .container{
         width: 285px;
+        padding-left: 15px;
         vertical-align: middle;
         display: inline-block;
         position: relative;
