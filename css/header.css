@@ -39,7 +39,11 @@
 
 .container{
     margin: auto;
-    padding-left: 390px;
+    
+}
+
+#jumboContainer{
+    padding-left: 390px
 }
 
 
